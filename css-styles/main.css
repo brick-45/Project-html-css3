@@ -36,6 +36,14 @@
     background-color: var(--background-color);
 }
 
+.line1 .card{
+    margin: 0px 12px 50px 12px;
+}
+
+.line2 .card{
+    margin: 50px 12px 50px 12px;
+}
+
 
 /* objects */
     /* tools */
@@ -68,15 +76,19 @@
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
+    align-items: center;
     width: 392px;
 }
 
 .card-headline{
+    display: flex;
     flex-direction: column;
+    margin: 0px 0px 0px 30px;
 }
 
 .free{
     color: var(--brand-color-orange);
+    margin: 0px 
 }
 
 .card p{
