@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Antools</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="./normalise.css">
+    <link rel="stylesheet" href="./reset.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
@@ -49,73 +50,81 @@
     </div>
     </header>
 
+
+
         <!-- main -->
     <main>
         <!-- section1 -->
-        <section>
+        <section class="tools">
         <div class="container">
-            <h2>Most Popular Tools</h2>
-            <p>Tools for the best Designers and Developers most popularly used in the world</p>
+            <div class="tools-tittle">
+                <h2>Most Popular Tools</h2>
+                <p>Tools for the best Designers and Developers most popularly used in the world</p>
+            </div>
             <!-- 1 -->
         <ul>
-            <div>
-                <img src="./imgs/figmaIcon.webp" alt="figmaIcon" width=64px height=64px>
-                <h3>FIGMA</h3>
-                <p>Free</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <img src="./imgs/likeIcon.webp" alt="likeIcon">
-                <img src="./imgs/folderIcon.webp" alt="folderIcon">
-                <a href="#">Visit</a>
-            </div>
-            <!-- 2 -->
-            <div>
-                <img src="./imgs/logos_sketch.webp" alt="sketchIcon">
-                <h3>Sketch</h3>
-                <p>Trial & Paid</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <img src="./imgs/likeColorIcon.webp" alt="likeIcon">
-                <img src="./imgs/folderIcon.webp" alt="folderIcon">
-                <a href="#">Visit</a>
-            </div>
-            <!-- 3 -->
-            <div>
-                <img src="./imgs/logos_visual-studio-code.webp" alt="vscodeIcon">
-                <h3>Visual Studio Code</h3>
-                <p>Free</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <img src="./imgs/likeIcon.webp" alt="likeIcon">
-                <img src="./imgs/folderIcon.webp" alt="folderIcon">
-                <a href="#">Visit</a>
+            <div class="line1">
+                <div class="card">
+                    <img src="./imgs/figmaIcon.webp" alt="figmaIcon" width=64px height=64px>
+                    <h3>FIGMA</h3>
+                    <p>Free</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <img src="./imgs/likeIcon.webp" alt="likeIcon">
+                    <img src="./imgs/folderIcon.webp" alt="folderIcon">
+                    <a href="#">Visit</a>
+                </div>
+                <!-- 2 -->
+                <div class="card">
+                    <img src="./imgs/logos_sketch.webp" alt="sketchIcon">
+                    <h3>Sketch</h3>
+                    <p>Trial & Paid</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <img src="./imgs/likeColorIcon.webp" alt="likeIcon">
+                    <img src="./imgs/folderIcon.webp" alt="folderIcon">
+                    <a href="#">Visit</a>
+                </div>
+                <!-- 3 -->
+                <div class="card">
+                    <img src="./imgs/logos_visual-studio-code.webp" alt="vscodeIcon">
+                    <h3>Visual Studio Code</h3>
+                    <p>Free</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <img src="./imgs/likeIcon.webp" alt="likeIcon">
+                    <img src="./imgs/folderIcon.webp" alt="folderIcon">
+                    <a href="#">Visit</a>
+                </div>
             </div>
             <!-- 4 -->
-            <div>
-                <img src="./imgs/notion.webp" alt="notionIcon">
-                <h3>Notion</h3>
-                <p>Free & Paid</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <img src="./imgs/likeIcon.webp" alt="likeIcon">
-                <img src="./imgs/folderIcon.webp" alt="folderIcon">
-                <a href="#">Visit</a>
-            </div>
-            <!-- 5 -->
-            <div>
-                <img src="./imgs/grommet-icons_slack.webp" alt="slackIcon">
-                <h3>Slack</h3>
-                <p>Free & Paid</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <img src="./imgs/likeIcon.webp" alt="likeIcon">
-                <img src="./imgs/folderIcon.webp" alt="folderIcon">
-                <a href="#">Visit</a>
-            </div>
-            <!-- 6 -->
-            <div>
-                <img src="./imgs/logos_invision-icon.webp" alt="invisionIcon">
-                <h3>Invision</h3>
-                <p>Free & Paid</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <img src="./imgs/likeIcon.webp" alt="likeIcon">
-                <img src="./imgs/folderIcon.webp" alt="folderIcon">
-                <a href="#">Visit</a>
+            <div class="line2">
+                <div class="card">
+                    <img src="./imgs/notion.webp" alt="notionIcon">
+                    <h3>Notion</h3>
+                    <p>Free & Paid</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <img src="./imgs/likeIcon.webp" alt="likeIcon">
+                    <img src="./imgs/folderIcon.webp" alt="folderIcon">
+                    <a href="#">Visit</a>
+                </div>
+                <!-- 5 -->
+                <div class="card">
+                    <img src="./imgs/grommet-icons_slack.webp" alt="slackIcon">
+                    <h3>Slack</h3>
+                    <p>Free & Paid</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <img src="./imgs/likeIcon.webp" alt="likeIcon">
+                    <img src="./imgs/folderIcon.webp" alt="folderIcon">
+                    <a href="#">Visit</a>
+                </div>
+                <!-- 6 -->
+                <div class="card">
+                    <img src="./imgs/logos_invision-icon.webp" alt="invisionIcon">
+                    <h3>Invision</h3>
+                    <p>Free & Paid</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <img src="./imgs/likeIcon.webp" alt="likeIcon">
+                    <img src="./imgs/folderIcon.webp" alt="folderIcon">
+                    <a href="#">Visit</a>
+                </div>
             </div>
         </ul>
             <button>Load more</button>
