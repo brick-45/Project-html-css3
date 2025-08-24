@@ -1,0 +1,15 @@
+ :root{
+    --background-color: #1E252B;
+    --brand-color-orange: #FF6E30;
+    --brand-color-lightGray: #283036;
+}
+
+.container{
+    width: 1440px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+body{
+    background-color: var(--background-color);
+}
