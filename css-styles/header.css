@@ -14,8 +14,8 @@ body{
 }
 
 .nav-menu{
-    width: 471px;
-    height: 24px;
+    max-width: 471px;
+    max-height: 24px;
     justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
@@ -30,7 +30,7 @@ body{
 
 .header-input{
     display: flex;
-    width: 480px;
+    max-width: 480px;
     height: 64px;
     background-color: var(--brand-color-lightGray);
     align-items: center;
