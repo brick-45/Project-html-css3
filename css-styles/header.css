@@ -30,7 +30,7 @@ body{
 .header-input{
     display: flex;
     max-width: 480px;
-    height: 64px;
+    max-height: 64px;
     background-color: var(--brand-color-lightGray);
     align-items: center;
     border-radius: 15px;
