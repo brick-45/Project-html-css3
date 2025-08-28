@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Antools</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./normalise.css">
+    <link rel="stylesheet" href="./modern-normalize.css">
     <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
 </head>
 <body>
         <!--hero-->
@@ -161,121 +160,155 @@
                     </div>
                 </div>
             </div>
-            <div class="button">
-                <button class="load-more">Load more</button>
-            </div>
+            <button class="load-more">Load more</button>
         </div>
         </section>
 
         <!-- section2 -->
-        <section>
+        <section class="trust">
         <div class="container">
-            <h2>Trusted more than 150+ brand</h2>
-            <img src="./imgs/mikrosoftLogo.webp" alt="mikrosoftLogo">
-            <img src="./imgs/googleLogo.webp" alt="googleLogo">
-            <img src="./imgs/slackLogo.webp" alt="slackLogo">
-            <img src="./imgs/wordpressLogo.webp" alt="wordpressLogo">
+            <div class="trustBlock">
+                <h2 class="trustTitle">Trusted more than 150+ brand</h2>
+                <div class="trustBrends">
+                    <img src="./imgs/mikrosoftLogo.webp" alt="mikrosoftLogo">
+                    <img src="./imgs/googleLogo.webp" alt="googleLogo">
+                    <img src="./imgs/slackLogo.webp" alt="slackLogo">
+                    <img src="./imgs/wordpressLogo.webp" alt="wordpressLogo">
+                </div>
+            </div>
         </div>
         </section>
 
         <!-- section3 -->
-        <section>
+        <section class="newcommerTools">
         <div class="container">
-            <h2>Newcomer Tools</h2>
-            <p>Wow! see the latest update of the most recommended tools from reliable designers and developers</p>
-            <button>Explore more</button>
+            <div class="newcommerToolsTitle">
+                <h2>Newcomer Tools</h2>
+                <p>Wow! see the latest update of the most recommended tools from reliable designers and developers</p>
+                <button>Explore more</button>
+            </div>
 
             <!-- cards -->
-            <div>
-                <img src="./imgs/zeplinIcon.webp" alt="zeplinIcon">
-                <h3>Zeplin</h3>
-                <p>Free & Paid</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <img src="./imgs/likeIcon.webp" alt="likeIcon">
-                <img src="./imgs/folderIcon.webp" alt="folderIcon">
-                <button class="visitButton">Visit</button>
+            <div class="cards">
+            <div class="line3">
+                <div class="card">
+                    <div class="card-top">
+                        <img src="./imgs/zeplinIcon.webp" alt="zeplinIcon">
+                        <div class="card-headline">
+                            <h3>Zeplin</h3>
+                            <p class="free">Free & Paid</p>
+                        </div>
+                    </div>
+                    <p class="card-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="card-icons">
+                        <img src="./imgs/likeIcon.webp" alt="likeIcon">
+                        <img src="./imgs/folderIcon.webp" alt="folderIcon">
+                        <button class="visitButton">Visit</button>
+                    </div>
+                    </div>
+                    <div class="card">
+                    <div class="card-top">
+                        <img src="./imgs/phpstormIcon.webp" alt="phpstormIcon">
+                        <div class="card-headline">
+                            <h3>PHPStorm</h3>
+                            <p class="free">Free</p>
+                        </div>
+                    </div>
+                        <p class="card-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="card-icons">
+                        <img src="./imgs/likeIcon.webp" alt="likeIcon">
+                        <img src="./imgs/folderIcon.webp" alt="folderIcon">
+                        <button class="visitButton">Visit</button>
+                    </div>
+                </div>
             </div>
-            <div>
-                <img src="./imgs/phpstormIcon.webp" alt="phpstormIcon">
-                <h3>PHPStorm</h3>
-                <p>Free</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <img src="./imgs/likeIcon.webp" alt="likeIcon">
-                <img src="./imgs/folderIcon.webp" alt="folderIcon">
-                <button class="visitButton">Visit</button>
+            <div class="line4">
+                <div class="card">
+                    <div class="card-top">
+                        <img src="./imgs/toolboxIcon.webp" alt="toolboxIcon">
+                        <div class="card-headline">
+                            <h3>Toolbox</h3>
+                            <p class="free">Free</p>
+                        </div>
+                    </div>
+                        <p class="card-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="card-icons">
+                        <img src="./imgs/likeIcon.webp" alt="likeIcon">
+                        <img src="./imgs/folderIcon.webp" alt="folderIcon">
+                        <button class="visitButton">Visit</button>
+                    </div>
+                </div>
+            <div class="card">
+                    <div class="card-top">
+                        <img src="./imgs/procreateIcon.webp" alt="procreateIcon">
+                        <div class="card-headline">
+                            <h3>Procreate</h3>
+                            <p class="free">Paid</p>
+                        </div>
+                    </div>
+                    <p class="card-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="card-icons">
+                        <img src="./imgs/likeIcon.webp" alt="likeIcon">
+                        <img src="./imgs/folderIcon.webp" alt="folderIcon">
+                        <button class="visitButton">Visit</button>
+                    </div>
             </div>
-            <div>
-                <img src="./imgs/toolboxIcon.webp" alt="toolboxIcon">
-                <h3>Toolbox</h3>
-                <p>Free</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <img src="./imgs/likeIcon.webp" alt="likeIcon">
-                <img src="./imgs/folderIcon.webp" alt="folderIcon">
-                <button class="visitButton">Visit</button>
-            </div>
-            <div>
-                <img src="./imgs/procreateIcon.webp" alt="procreateIcon">
-                <h3>Procreate</h3>
-                <p>Paid</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <img src="./imgs/likeIcon.webp" alt="likeIcon">
-                <img src="./imgs/folderIcon.webp" alt="folderIcon">
-                <button class="visitButton">Visit</button>
             </div>
         </div>
         </section>
 
         <!-- section4 -->
-        <section>
+        <section class="productManager">
         <div class="container">
-            <img src="./imgs/back.webp" alt="back">
-            <img src="./imgs/ronald-richards.webp" alt="ronald-richards">
-            <div>
+
+            <img src="./imgs/back.webp" alt="back" class="arrow">
+            <img src="./imgs/ronald-richards2.webp" alt="ronald-richards" class="ronald-richards">
+            <!-- <div class="titleBoxManager">
                 <h3>Ronald Richards</h3>
                 <p>Product Manager</p>
-            </div>
-            <p>Incididunt cillum do sint sint enim ullamco id deserunt mollit qui reprehenderit do. Velit ex tempor cillum ad sint occaecat. Do nulla velit labore occaecat do deserunt Lorem magna officia incididunt consectetur amet. Sunt consectetur veniam minim ex commodo sint non. Occaecat aute officia excepteur non laboris id qui ad.</p>
-            <img src="./imgs/next.webp" alt="next">
-            <img src="./imgs/pages.webp" alt="pages">
+            </div> -->
+            <p class="aboutRichard">Incididunt cillum do sint sint enim ullamco id deserunt mollit qui reprehenderit do. Velit ex tempor cillum ad sint occaecat. Do nulla velit labore occaecat do deserunt Lorem magna officia incididunt consectetur amet. Sunt consectetur veniam minim ex commodo sint non. Occaecat aute officia excepteur non laboris id qui ad.</p>
+            <img src="./imgs/next.webp" alt="next" class="arrow">
+            <img src="./imgs/pages.webp" alt="pages" class="pages">
         </div>
         </section>
 
         <!-- section5 -->
-        <section>
+        <section class="contributor">
         <div class="container">
             <h2>Become a contributor?</h2>
             <p>Join us and get tips & tricks to become a great Designer and Developer</p>
-            <div>
+            <div class="input">
                 <input type="text" placeholder="Enter your email...">
                 <button>Join Us</button>
             </div>
         </div>
         </section>
     </main>
-    <hr>
+    <hr class="line">
         <!-- footer -->
     <footer>
     <div class="container">
-        <h1><span><img src="./imgs/antoolsColorIcon.webp" alt="antoolsColorIcon"></span>antools.</h1>
-        <div>
+        <div class="footerColumn1">
+            <h1><span><img src="./imgs/antoolsColorIcon.webp" alt="antoolsColorIcon"></span>antools.</h1>
             <h4>Copyright 2021. Antools</h4>
             <p>Antool is a web collection of information on paid or free Design and Development tools</p>
         </div>
 
-        <div>
+        <div class="footerColumn2">
             <h4>Contact Us</h4>
             <p>+621987463</p>
             <p>M Building, No.10 A</p>
             <p>antools@awesome.com</p>
         </div>
 
-        <div>
+        <div class="footerColumn3">
             <h4>Categories</h4>
             <p>Design</p>
             <p>Development</p>
         </div>
 
-        <div>
+        <div class="footerColumn4">
             <h4>Company Info</h4>
             <p>About Us</p>
             <p>Our Partners</p>
