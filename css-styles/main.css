@@ -3,9 +3,10 @@
 
 .tools{
     display: flex;
-    max-height: 1348px;
-    max-width: 1440px;
-    /* justify-content: center; */
+    align-items: center;
+    justify-content: center;
+    margin-top:auto;
+    margin-bottom: 80px;
 }
 
 
@@ -14,8 +15,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 200px 0px 90px 0px;
+    margin: 0px 0px 90px 0px;
 }
+
+    /* cards */
 
 .card-line1{
     display: flex;
@@ -44,13 +47,98 @@
     margin: 50px 12px 50px 12px;
 }
 
+    /* trust */
+
+.trust{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trustBlock{
+    display: flex;
+    width: 1224px;
+    height: 253px;
+    justify-content: center;
+    background-image: radial-gradient(circle at top left, rgba(255, 72, 66, 0.40) 1%, rgba(44, 53, 61, 0.20) 10%);
+    background-color: var(--brand-color-lightGray);
+    border-radius: 15px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+}
+
+.trustBrends{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* Newcomer Tools */
+
+.newcommerTools{
+    display: flex;
+    flex-direction: row;
+}
+
+.newcommerToolsTitle{
+    flex-direction: column;
+    width: auto;
+}
+
+.line3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.line4{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards{
+    width: auto;
+}
+
+
+/* Product Manager */
+
+.productManager{
+    display: flex;
+    flex-direction: row;
+}
+
+/* .titleBoxManager{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 265px;
+    height: 91px;
+    border-radius: 15px;
+    background-image: radial-gradient(circle at top left, rgba(255, 72, 66, 0.40) 1%, rgba(44, 53, 61, 0.20) 10%);
+} */
+
+    /* contributor */
+
+.contributor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 250px 0px 240px 0px;
+}
+
+.line{
+    background-color: rgba(255, 255, 255, 0.15);
+    height: 0.5px;
+}
+
 
 /* objects */
     /* tools */
 
 .card-tools-tittle h2{
-    max-width: 455px;
-    max-height: 62px;
+    width: 455px;
+    height: 62px;
     font-size: 48px;
     font-weight: 500;
     text-align: center;
@@ -58,14 +146,14 @@
 }
 
 .tools-tittle p{
-    max-width: 427px;
+    width: 427px;
     text-align: center;
     font-size: 18px;
     font-weight: 500;
     justify-content: center;
 }
 
-
+    /* cards */
 
 .card img{
     max-width: 64px;
@@ -113,8 +201,8 @@
     font-size: 16px;
     border: none;
     border-radius: 15px;
-    max-width: 106px;
-    max-height: 42px;
+    width: 106px;
+    height: 42px;
     margin: 0px 0px 0px 165px;
 }
 
@@ -137,8 +225,120 @@
     color: var(--brand-color-orange);
     border: solid 1px var(--brand-color-lightGray);
     border-radius: 15px;
-    max-width: 184px;
-    max-height: 64px;
+    width: 184px;
+    height: 64px;
     font-size: 20px;
     justify-content: center;
+    align-items: center;
+}
+
+    /* trust */
+
+.trustTitle{
+    width: 367px;
+    font-size: 24px;
+    font-weight: 500;
+    justify-content: center; 
+}
+
+.trustBlock img{
+    width: auto;
+    height: 51px;
+}
+
+/* Newcomer Tools */
+
+.newcommerToolsTitle h2{
+    font-size: 48px;
+}
+
+.newcommerToolsTitle p{
+    width: 427px;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 30px 0px 30px 0px;
+}
+
+.newcommerToolsTitle button{
+    background-color: var(--brand-color-orange);
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    width: 198px;
+    height: 58px;
+    margin: 30px 0px 0px 0px;
+}
+
+.titleBoxManager h3{
+    width: 220px;
+    height: 39px;
+    font-size: 26px;
+    margin: 0px 0px 0px 0px;
+    justify-content: center;
+}
+
+
+
+.aboutRichard{
+    width: 393px;
+    font-size: 14px;
+    font-weight: 400;
+    align-items: center;
+}
+
+.ronald-richards{
+    align-items: center;
+}
+
+.arrow{
+    align-items: center;
+}
+
+/* contributor */
+
+.contributor h2{
+    font-size: 48px;
+    font-weight: 500;
+    justify-content: center;
+}
+
+.contributor p{
+    width: 427px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    margin: 25px 0px 100px 0px;
+}
+
+.input{
+    display: flex;
+    width: 549px;
+    height: 64px;
+    background-color: var(--brand-color-lightGray);
+    align-items: center;
+    border-radius: 15px;
+    margin-bottom: 226px;
+    font-family: Poppins;
+    justify-content: center;
+}
+
+.input input{
+    color: #FFFFFFFF;
+    background-color: var(--brand-color-lightGray);
+    border: none;
+    width: 210px;
+    height: 21px;
+    margin: 0px 100px 0px 13px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.input button{
+    width: 130px;
+    height: 48px;
+    color: #FFFFFFFF;
+    background-color: var(--brand-color-orange);
+    border: none;
+    border-radius: 15px;
+    margin: 0px 10px 0px 120px;
 }
