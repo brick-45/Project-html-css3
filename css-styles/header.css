@@ -3,7 +3,7 @@ body{
     font-family: Poppins;
     color: rgb(255, 255, 255);
 }
-/*  */
+
 /* розмітка */
     /* nav menu */
 
@@ -12,7 +12,7 @@ body{
     align-items: center;
     justify-content: space-between;
 }
-/*  */
+
 .nav-menu{
     max-width: 471px;
     max-height: 24px;
@@ -20,43 +20,28 @@ body{
     align-items: center;
     flex-wrap: nowrap;
 }
+
     /* hero */
 
 .hero{
     display: flex;
     justify-content: space-between;
 }
-/*  */
+
 .header-input{
     display: flex;
-    max-width: 480px;
-    max-height: 64px;
+    width: 497px;
+    height: 64px;
     background-color: var(--brand-color-lightGray);
     align-items: center;
     border-radius: 15px;
-    align-items: center;
     margin-bottom: 226px;
+    font-family: Poppins;
 }
-/*  */
+
 .hhhero{
     flex-direction: column;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* objects */
     /* nav menu */
@@ -92,7 +77,6 @@ a{
     margin: 0px 19px 0px 19px;
 }
 
-
     /* hero */
 
 .orange{
@@ -116,9 +100,11 @@ a{
     color: #FFFFFFFF;
     background-color: var(--brand-color-lightGray);
     border: none;
-    width: 190;
+    width: 210px;
     height: 21px;
-    margin: 0px 55px 0px 13px;
+    margin: 0px 50px 0px 13px;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .header-input button{
