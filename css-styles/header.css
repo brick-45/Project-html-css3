@@ -114,7 +114,7 @@ a{
     background-color: var(--brand-color-orange);
     border: none;
     border-radius: 15px;
-    margin: 0px 0px 0px 55px;
+    margin: 0px 10px 0px 55px;
 }
 
 .header-input img{
