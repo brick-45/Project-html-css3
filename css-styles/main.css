@@ -35,8 +35,10 @@
     flex-direction: column;
     max-width: 392px;
     max-height: 294px;
+    width: 100%;
     border-radius: 15px;
     background-color: var(--background-color);
+    padding: 33px;
 }
 
 .card-line1 .card{
@@ -55,6 +57,11 @@
     justify-content: center;
 }
 
+.TrustBox{
+    display: flex;
+    justify-content: center;
+}
+
 .trustBlock{
     display: flex;
     width: 1224px;
@@ -65,7 +72,7 @@
     border-radius: 15px;
     flex-wrap: wrap;
     flex-direction: column;
-    text-align: center;
+    justify-content: center;
 }
 
 .trustBrends{
@@ -76,17 +83,25 @@
 
 /* Newcomer Tools */
 
-.newcommerTools{
-    display: flex;
+.newcommerTools {
+   display: flex;
+    flex-wrap: wrap;        
+    flex-direction: row;    
+    align-items: center;
+}
+
+.newcommerToolsBox{
+    display: flex;       
+    align-items: flex-start;
     flex-direction: row;
-    width: 1245px;
-    border: solid black;
+    gap: 200px;
+    margin: 223px 0px 215px 0px;
 }
 
 .newcommerToolsTitle{
     flex-direction: column;
-    max-width: 400px;
-    border: solid black;
+    max-width: 500px;
+    width: 100%;
     align-items: center;
     order: 1;
 }
@@ -97,17 +112,20 @@
     flex-wrap: wrap;
     justify-content: flex-end;
     align-self: flex-start;
-    border: solid black;
-    max-width: 600px;
+    max-width: 700px;
+    width: 100%;
+
     order: 2;
 }
 
 .line3{
     display: flex;
+    gap: 25px;
 }
 
 .line4{
     display: flex;
+    gap: 25px;
 }
 
 
@@ -118,23 +136,33 @@
     flex-direction: row;
 }
 
-/* .titleBoxManager{
+.ronaldRichards{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 265px;
-    height: 91px;
-    border-radius: 15px;
-    background-image: radial-gradient(circle at top left, rgba(255, 72, 66, 0.40) 1%, rgba(44, 53, 61, 0.20) 10%);
-} */
+    flex-direction: row;
+    align-items: center;
+    gap: 200px;
+}
 
     /* contributor */
 
 .contributor{
+    /* display: flex;
+    justify-content: center; */
+    margin: 250px 0px 240px 0px;
+}
+
+.contributorBoxMain{
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin: 250px 0px 240px 0px;
+    margin: 400px 0px 240px 0px;
+}
+
+.contributorBox{
+    display: flex;
+    flex-direction: column;
+    height: 200px; 
+    justify-content: center;
+    text-align: center;
 }
 
 .line{
@@ -256,10 +284,13 @@
     /* trust */
 
 .trustTitle{
-    width: 367px;
+    display: flex;
+    width: 1224px;
+    justify-content: center;
+    flex-wrap: nowrap;
     font-size: 24px;
     font-weight: 500;
-    justify-content: center; 
+    margin: 0px 0px 55px 0px;
 }
 
 .trustBlock img{
@@ -301,8 +332,8 @@
 
 
 .aboutRichard{
-    width: 393px;
-    font-size: 14px;
+    width: 500px;
+    font-size: 18px;
     font-weight: 400;
     align-items: center;
 }
@@ -315,15 +346,22 @@
     align-items: center;
 }
 
+.pages{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px 0px 0px;
+}
+
 /* contributor */
 
-.contributor h2{
-    font-size: 48px;
+
+.headlineContributor{
+    font-size: 36px;
     font-weight: 500;
     justify-content: center;
 }
 
-.contributor p{
+.txtContributor{
     width: 427px;
     font-size: 18px;
     font-weight: 500;
@@ -334,13 +372,12 @@
 .input{
     display: flex;
     width: 549px;
-    height: 64px;
+    height: 70px;
     background-color: var(--brand-color-lightGray);
     align-items: center;
     border-radius: 15px;
     margin-bottom: 226px;
     font-family: Poppins;
-    justify-content: center;
 }
 
 .input input{
@@ -361,5 +398,5 @@
     background-color: var(--brand-color-orange);
     border: none;
     border-radius: 15px;
-    margin: 0px 10px 0px 120px;
+    margin: 10px 10px 10px 120px;
 }
