@@ -1,30 +1,74 @@
 footer{
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 40px; /* внутрішні відступи */
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.footerAntools{
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    width: 1440px;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 40px; /* внутрішні відступи */
+    gap: 30px;
+    flex-wrap: wrap;
 }
 
 .footerColumn1{
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     order: 1;
+    width: 260px;
+    height: 183px;
+    flex-shrink: 0;
 }
 
 .footerColumn2{
     display: flex;
     flex-direction: column;
     order: 2;
+    width: 197px;
+    height: 142px;
+    flex-shrink: 0;
 }
 
 .footerColumn3{
     display: flex;
     flex-direction: column;
     order: 3;
+    width: 112px;
+    height: 108px;
+    flex-shrink: 0;
 }
 
 .footerColumn4{
     display: flex;
     flex-direction: column;
     order: 4;
+    width: 112px;
+    height: 108px;
+    flex-shrink: 0;
+}
+
+/* objects */
+
+.contactUsHeadline{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.contactUsText{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.55);
+
 }
