@@ -13,7 +13,7 @@ footer{
 .footerAntools{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
@@ -54,7 +54,7 @@ footer{
     display: flex;
     flex-direction: column;
     order: 4;
-    width: 112px;
+    width: 140px;
     height: 108px;
     flex-shrink: 0;
 }
@@ -67,8 +67,17 @@ footer{
 }
 
 .contactUsText{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     font-size: 14px;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.55);
+    margin-top: 10px;
+}
 
+.line{
+    border: none;
+    height: 0.5px;
+    background-color: var(--brand-color-lightGray);
 }
