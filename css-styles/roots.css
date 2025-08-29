@@ -6,7 +6,7 @@
 
 .container{
     justify-content: center;
-    width: 1450px;
+    width: 1440px;
     height: auto;
     padding: 0 15px;
     margin: 0 auto;
@@ -14,4 +14,10 @@
 
 body{
     background-color: var(--background-color);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
