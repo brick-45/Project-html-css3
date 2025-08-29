@@ -149,13 +149,13 @@
 .contributor{
     /* display: flex;
     justify-content: center; */
-    margin: 250px 0px 240px 0px;
+    margin: 250px 0px 100px 0px;
 }
 
 .contributorBoxMain{
     display: flex;
     justify-content: center;
-    margin: 400px 0px 240px 0px;
+    margin: 400px 0px 100px 0px;
 }
 
 .contributorBox{
