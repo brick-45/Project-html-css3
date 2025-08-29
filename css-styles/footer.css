@@ -1,14 +1,4 @@
-footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    max-width: 1440px;
-    width: 100%;
-    margin: 0 auto;
-    
-    gap: 30px;
-    flex-wrap: wrap;
-}
+
 
 .footerAntools{
     display: flex;
@@ -17,7 +7,7 @@ footer{
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
-
+    padding: 70px 100px;
     gap: 30px;
     flex-wrap: wrap;
 }
