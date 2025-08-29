@@ -1,3 +1,31 @@
 .card:hover{
-    background-image: radial-gradient(circle at top right, rgba(255, 72, 66, 0.40) 3%, rgba(44, 53, 61, 0.20) 30%);
+    background-image: radial-gradient(circle at top right, rgba(255, 110, 48, 0.60) 1%, var(--brand-color-lightGray) 30%);
+    position: relative;
+    bottom: 10px;
 }
+
+.card:hover .visitButton{
+    background-color: var(--brand-color-orange);
+}
+
+
+input:checked{
+    border: none;
+}
+
+button:active{
+    position: relative;
+    top: 5px;
+    background-color: #DD4C1C;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+
+.loadMoreButton:active button{
+    background-color: #181D22;
+    position: sticky;
+}
+
