@@ -67,7 +67,7 @@
 }
 
 .line{
-    border: none;
     height: 0.5px;
+    width: 100%;
     background-color: var(--brand-color-lightGray);
 }
