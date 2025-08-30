@@ -15,7 +15,7 @@ input:checked{
 
 button:active{
     position: relative;
-    top: 5px;
+    top: 2px;
     background-color: #DD4C1C;
 }
 
@@ -29,3 +29,8 @@ a:hover{
     position: sticky;
 }
 
+.nav-menu-button1:active{
+    background-color: var(--background-color);
+    position: sticky;
+    text-decoration: underline;
+}
