@@ -62,7 +62,7 @@
 .trustBlock{
     display: flex;
     width: 1224px;
-    height: 253px;
+    height: 280px;
     justify-content: center;
     background-image: radial-gradient(circle at top left, rgba(255, 72, 66, 0.40) 1%, rgba(44, 53, 61, 0.20) 10%);
     background-color: var(--brand-color-lightGray);
@@ -75,7 +75,6 @@
 .trustBrends{
     display: flex;
     justify-content: space-around;
-    margin-bottom: 55px;
 }
 
 
@@ -106,13 +105,11 @@
 
 .cards2{
     display: flex;
-    /* margin-left: 600px; */
     flex-wrap: wrap;
     justify-content: flex-end;
     align-self: flex-start;
     max-width: 700px;
     width: 100%;
-
     order: 2;
 }
 
@@ -144,8 +141,6 @@
     /* contributor */
 
 .contributor{
-    /* display: flex;
-    justify-content: center; */
     margin: 250px 0px 100px 0px;
 }
 
@@ -244,7 +239,6 @@
     border-radius: 15px;
     width: 106px;
     height: 42px;
-    /* margin: 0px 0px 0px 125px; */
     justify-content: flex-end;
 }
 
