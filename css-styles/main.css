@@ -20,15 +20,11 @@
 
     /* cards */
 
-.card-line1{
+.card-line{
     display: flex;
     justify-content: space-between;
 }
 
-.card-line2{
-    display: flex;
-    justify-content: space-between;
-}
 
 .card{
     display: flex;
@@ -223,6 +219,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 120px;
 }
 
 .card-icons img{
@@ -230,6 +227,10 @@
     height: 28px;
 }
 
+.icons{
+    display: flex;
+    flex-direction: row;
+}
 
 
 
@@ -242,7 +243,8 @@
     border-radius: 15px;
     width: 106px;
     height: 42px;
-    margin: 0px 0px 0px 125px;
+    /* margin: 0px 0px 0px 125px; */
+    justify-content: flex-end;
 }
 
 .card-icons img{
